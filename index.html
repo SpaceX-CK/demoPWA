@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoPWA</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="logo.png">
+    <meta name="theme-color" content="gray">
+    <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+</head>
+<body>
+    <nav class=" bg-gray-400 flex justify-between py-2">
+        <span class="flex p-2">
+            <img src="logo.png" alt="logo" class=" rounded-full mx-2 w-10 h-10">
+            <h1 class="my-auto font-bold text-2xl"> DemoPWA</h1>
+        </span>
+        <span class="mx-2 my-auto ">
+            <button class="bg-blue-300 p-2 rounded-xl" id="install_button">install</button>
+        </span>
+    </nav>
+    <!-- <p id="demo"></p> -->
+</body>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="sw.js"></script>
+</html>
